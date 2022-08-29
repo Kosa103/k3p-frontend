@@ -1,0 +1,108 @@
+@import "../../../../assets/style/colors";
+
+.input-text-field {
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 1.90vh;
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.11vh;
+    color: $color-black;
+    text-transform: capitalize;
+    margin-bottom: 0.55vh;
+    margin-right: 0.55vh;
+
+    &-error {
+      color: $color-red;
+    }
+  }
+
+  &__error-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.11vh;
+    color: $color-red;
+    margin-bottom: 0.55vh;
+  }
+
+  &__input {
+    width: 100%;
+    border: 0.09vh solid $color-grey-lighter;
+    box-sizing: border-box;
+    border-radius: 1.85vh;
+    font-size: 1.11vh;
+    padding: 1.20vh 1.75vh;
+    outline: none;
+
+    -webkit-appearance: none;
+
+    &:focus {
+      -webkit-appearance: none;
+    }
+
+    &-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    &-show {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 1.39vh;
+      font-size: 2.04vh;
+      color: #324a5e;
+      display: flex;
+      align-items: center;
+    }
+
+    &::-webkit-input-placeholder {
+      color: $color-black;
+      font-size: 1.11vh;
+      text-transform: uppercase;
+    }
+
+    &::-moz-placeholder {
+      color: $color-black;
+      font-size: 1.11vh;
+      text-transform: uppercase;
+    }
+
+    &:-ms-input-placeholder {
+      color: $color-black;
+      font-size: 1.11vh;
+      text-transform: uppercase;
+    }
+
+    &:-moz-placeholder {
+      color: $color-black;
+      font-size: 1.11vh;
+      text-transform: uppercase;
+    }
+
+    &::placeholder {
+      color: $color-black;
+      font-size: 1.11vh;
+      text-transform: uppercase;
+    }
+
+    &-error {
+      border-color: $color-red;
+
+      &:focus {
+        outline-color: $color-red;
+      }
+    }
+
+    &-read_only {
+      color: $color-grey-light;
+    }
+  }
+}

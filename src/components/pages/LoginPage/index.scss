@@ -1,0 +1,93 @@
+@import "../../../assets/style/colors";
+
+.login-page {
+  height: 100vh;
+  position: relative;
+
+  &__background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__background {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 19.44vh;
+  }
+
+  &__welcome {
+    font-size: 3.7vh;
+    line-height: 4.54vh;
+    font-weight: 300;
+    letter-spacing: 0.19vh;
+    margin-bottom: 2vh;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 3vh;
+    border: 0.28vh solid $color-primary-dark;
+    border-radius: 0.74vh;
+
+    &-back {
+      color: $color-primary-dark;
+      font-size: 12.95vh;
+      line-height: 100%;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+  }
+
+  &__descriptions {
+    text-align: center;
+    margin-bottom: 4.8vh;
+  }
+
+  &__description {
+    font-size: 1.85vh;
+    line-height: 3.43vh;
+    font-weight: 500;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    &-input {
+      width: 26.94vh;
+      margin-bottom: 1.2vh;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.06vh;
+  }
+
+  &__button {
+    min-width: 18.8vh;
+
+    &:not(:last-child) {
+      margin-bottom: 0.93vh;
+    }
+  }
+}
