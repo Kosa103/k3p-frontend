@@ -1,0 +1,28 @@
+
+  {
+    "common.ok": "Ok",
+    "error.emailInvalid": "Invalid email",
+    "error.emailEmpty": "Enter e-mail",
+    "error.passwordInvalid": "Invalid password",
+    "error.passwordEmpty": "Enter password",
+    "error.fieldRequired": "This field is required",
+    "error.acceptTerms": "You must accept the terms",
+    "login.welcome": "Welcome to",
+    "login.description1": "K3P is a password management application using KDBX files.",
+    "login.description2": "You can upload, modify and create new passwords.",
+    "login.user": "User",
+    "login.password": "Password",
+    "login.login": "Log in",
+    "login.newUser": "Create new user",
+    "login.forgotPassword": "Forgot password",
+    "register.new": "New",
+    "register.user": "User",
+    "register.description1": "To access TOPMATCH please fill out the fields below.",
+    "register.name": "Name",
+    "register.email": "E-Mail",
+    "register.phone": "Phone number",
+    "register.password": "Password",
+    "register.accept": "I accept ...",
+    "register.description2": "As soon as we have received your request, you will receive an email with information to proceed.",
+    "register.description3": "If you have any questions, please contact us on 9614 7700."
+  }

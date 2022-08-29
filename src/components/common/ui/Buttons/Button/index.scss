@@ -1,0 +1,31 @@
+@import "../../../../../assets/style/colors";
+
+.button {
+  color: $color-white;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.65vh;
+  font-size: 1.39vh;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2.87vh;
+  opacity: 1;
+  transition-duration: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.85;
+    transition-duration: 0.3s;
+  }
+
+  &.-secondary {
+    background-color: $color-secondary;
+  }
+
+  &.-disabled {
+    background-color: $color-grey;
+  }
+}
